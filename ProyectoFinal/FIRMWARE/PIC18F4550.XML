@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<PROJECT IID="1" BUILDPATH="C:/Users/ROBERT~1.ARI/AppData/Local/Temp/b777dd5bc4c648d2988b08161a12bb21/PIC18F4550" VERSION="805" NAME="PIC18F4550" CONFIGURATION="Debug">
+ <FILES ATTACH="1">
+  <FILE ATTACH="1" GROUP="Source Files" NAME="PIC18F4550/main.c"/>
+  <FILE ATTACH="1" GROUP="Source Files" NAME="PIC18F4550/rutines_GLCD.c"/>
+  <FILE ATTACH="1" GROUP="Header Files" NAME="PIC18F4550/ascii.h"/>
+  <FILE ATTACH="1" GROUP="Header Files" NAME="PIC18F4550/Bart.h"/>
+  <FILE ATTACH="1" GROUP="Header Files" NAME="PIC18F4550/building.h"/>
+  <FILE ATTACH="1" GROUP="Header Files" NAME="PIC18F4550/car.h"/>
+  <FILE ATTACH="1" GROUP="Header Files" NAME="PIC18F4550/config.h"/>
+  <FILE ATTACH="1" GROUP="Header Files" NAME="PIC18F4550/GLCD.h"/>
+  <FILE ATTACH="1" GROUP="Header Files" NAME="PIC18F4550/Picasso.h"/>
+  <FILE ATTACH="1" GROUP="Firmware Files" NAME="PIC18F4550/Debug/Debug.cof" FIRMWARE="1"/>
+ </FILES>
+ <CONFIGURATION CRC="8caaa3910c20994af7722b4937240ecc" TARGET="Debug" COMPILER="MPLAB XC8" NAME="Debug">
+  <CONTROLLER FAMILY="PIC18" TYPE="PIC18F4550"/>
+  <FILE TOOL="LD" NAME="PIC18F4550/Debug/Debug.cof">
+   <FILE TOOL="CC" NAME="PIC18F4550/Debug/main.p1">
+    <FILE NAME="PIC18F4550/main.c"/>
+   </FILE>
+   <FILE TOOL="CC" NAME="PIC18F4550/Debug/RUTINE~1.p1">
+    <FILE NAME="PIC18F4550/rutines_GLCD.c"/>
+   </FILE>
+  </FILE>
+  <FILE NAME="PIC18F4550/ascii.h"/>
+  <FILE NAME="PIC18F4550/Bart.h"/>
+  <FILE NAME="PIC18F4550/building.h"/>
+  <FILE NAME="PIC18F4550/car.h"/>
+  <FILE NAME="PIC18F4550/config.h"/>
+  <FILE NAME="PIC18F4550/GLCD.h"/>
+  <FILE NAME="PIC18F4550/Picasso.h"/>
+  <FILE NAME="PIC18F4550/Debug/Debug.cof"/>
+  <FILE NAME="PIC18F4550/Release/Release.hex"/>
+  <OPTION DEFAULT="1" TOOL="LD" NAME="--output=" VALUE="mcof"/>
+  <OPTION DEFAULT="1" TOOL="LD" NAME="-G"/>
+  <OPTION DEFAULT="1" TOOL="LD" NAME="--chip=" VALUE="18F4550"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="--pass1"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="--errformat=" VALUE="&quot;Error at file %%%%f line %%%%l column %%%%c: (%%%%n) %%%%s&quot;"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="--warnformat=" VALUE="&quot;Warning at file %%%%f line %%%%l column %%%%c: (%%%%n) %%%%s&quot;"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="--msgformat=" VALUE="&quot;Message at file %%%%f line %%%%l column %%%%c: (%%%%n) %%%%s&quot;"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-G"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="--chip=" VALUE="18F4550"/>
+ </CONFIGURATION>
+ <CONFIGURATION CRC="8caaa3910c20994af7722b4937240ecc" TARGET="Release" COMPILER="MPLAB XC8" NAME="Release">
+  <CONTROLLER FAMILY="PIC18" TYPE="PIC18F4550"/>
+  <FILE TOOL="LD">
+   <FILE TOOL="CC">
+    <FILE NAME="PIC18F4550/main.c"/>
+   </FILE>
+   <FILE TOOL="CC">
+    <FILE NAME="PIC18F4550/rutines_GLCD.c"/>
+   </FILE>
+  </FILE>
+  <FILE NAME="PIC18F4550/ascii.h"/>
+  <FILE NAME="PIC18F4550/Bart.h"/>
+  <FILE NAME="PIC18F4550/building.h"/>
+  <FILE NAME="PIC18F4550/car.h"/>
+  <FILE NAME="PIC18F4550/config.h"/>
+  <FILE NAME="PIC18F4550/GLCD.h"/>
+  <FILE NAME="PIC18F4550/Picasso.h"/>
+  <FILE NAME="PIC18F4550/Debug/Debug.cof"/>
+  <FILE NAME="PIC18F4550/Release/Release.hex"/>
+  <OPTION DEFAULT="1" TOOL="LD" NAME="--output=" VALUE="intel"/>
+  <OPTION DEFAULT="1" TOOL="LD" NAME="--chip=" VALUE="18F4550"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="--pass1"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="--errformat=" VALUE="&quot;Error at file %%%%f line %%%%l column %%%%c: (%%%%n) %%%%s&quot;"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="--warnformat=" VALUE="&quot;Warning at file %%%%f line %%%%l column %%%%c: (%%%%n) %%%%s&quot;"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="--msgformat=" VALUE="&quot;Message at file %%%%f line %%%%l column %%%%c: (%%%%n) %%%%s&quot;"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="--chip=" VALUE="18F4550"/>
+ </CONFIGURATION>
+</PROJECT>
