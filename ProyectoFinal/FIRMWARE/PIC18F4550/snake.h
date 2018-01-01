@@ -14,6 +14,7 @@ unsigned const char font5x7[500] = {
 	0x1C, 0x2A, 0x3E, 0x3E, 0x3E, 		// 15
 	// ^  (dalt)
 
+
 //COS
 	0x00, 0x7F, 0x7F, 0x7F, 0x00, 		// 20
 	// ------
@@ -21,7 +22,8 @@ unsigned const char font5x7[500] = {
 	// |
 	// |
 
-	//GIRAR
+
+//GIRAR
 	0x00, 0x7C, 0x7C, 0x7C, 0x1C, 		// 30
 	// ___ 
 	//    |
@@ -38,7 +40,8 @@ unsigned const char font5x7[500] = {
 	// |
 	// ----   
 
-	//APPLE
+
+//APPLE
 	0x08, 0x1C, 0x3A, 0x3E, 0x1C 		// 50
 };
 
